@@ -25,5 +25,5 @@ spec:
             - name: SPECIAL_TYPE_KEY
               valueFrom:
                 configMapKeyRef:
-                  name: specialconfig
+                  name: special-config
                   key: SPECIAL_TYPE
