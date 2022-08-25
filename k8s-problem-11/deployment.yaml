@@ -20,10 +20,7 @@ spec:
           name: k8s-problem-11
           image: k8s.gcr.io/busybox
           readinessProbe:
-            exec:
-              command:
-                - cat
-                - /tmp/healthy
+            
             initialDelaySeconds: 5
             periodSeconds: 5
             successThreshold: 1
