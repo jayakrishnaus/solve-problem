@@ -15,4 +15,6 @@ spec:
       containers:
         - name: busybox
           image: k8s.gcr.io/busybox
-          args:  ["-c", "while true; do echo Welcome to JournalDev; sleep 100;done"]
+          args:
+            - "sleep"
+            - "1000"
