@@ -7,7 +7,7 @@ spec:
   selector:
     app: banana
   ports:
-    - port: 5678
+    - port: 5679
 ---
 kind: Service
 apiVersion: v1
