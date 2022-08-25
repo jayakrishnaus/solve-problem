@@ -15,7 +15,7 @@ spec:
       volumes:
         - name: special-volume
           persistentVolumeClaim:
-            claimName: special-volume-cliam
+            claimName: special-volume-claim
       containers:
         - name: k8s-problem-4
           volumeMounts:
